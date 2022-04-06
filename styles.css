@@ -1,3 +1,4 @@
+
 html {
     
     margin: 0;
@@ -105,7 +106,7 @@ header:before {
     }
 }
 header span{
-  color:rgb(235, 198, 150)
+  color:rgb(238, 232, 224)
 }
 header h1{
   color:antiquewhite
@@ -115,17 +116,17 @@ header h1{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      font-weight: 50;
      position: absolute;
-         top: 10;
-         right: 10;
-   
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     
  }
  .btn-one {
-    padding-left: 4vw;
-    padding-right: 4vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 20px;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
     color: #FFF;
     transition: all 0.3s;
     position: relative;
@@ -137,6 +138,13 @@ header h1{
     text-align: center;
     width: 100px;
     cursor: pointer;
+  }
+  .one{
+    margin-right: 10px;
+   
+  }
+  .two{
+     margin-left: 10px;
   }
     header::before {
         content: "";
@@ -158,13 +166,13 @@ header h1{
         min-height: 100vh;
     }
     header h1 {
-        margin-top: 0;
-        margin-left: 15;
+        margin: 0;
         position: absolute;
-        top: 5%;
-        left: 25%;
-        transform: translate(-110%, -50%);
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         z-index: 1;
+        font-size: 8vw;
     }
 }
 .container {
@@ -222,8 +230,9 @@ div[class*=box] {
   border-top-style: solid;
   border-bottom-style: solid;
   border-top-color: rgba(255,255,255,0.5);
-  border-bottom-color: rgba(255,255,255,0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.156);
   transform: scale(0.1, 1);
+
 }
 .btn-one:hover span {
   letter-spacing: 2px;
@@ -342,4 +351,3 @@ div[class*=box] {
   opacity: 1;
   transform: scale(1,1);
 }
-
