@@ -124,7 +124,7 @@ header h1{
     
  }
  .btn-one {
-    font-size: 3vw;
+  
     margin: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -137,6 +137,7 @@ header h1{
    
   }
 .btn {
+      font-size: 3vw;
     line-height: 50px;
     height: 50px;
     text-align: center;
