@@ -112,6 +112,7 @@ header h1{
   color:antiquewhite
 }
 @media (max-width: 1100px){
+ 
   .h{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      font-weight: 50;
@@ -119,19 +120,21 @@ header h1{
         top: 75%;
         left: 50%;
         transform: translate(-50%, -50%);
+    white-space: nowrap;
     
  }
  .btn-one {
-    white-space: nowrap;
-    padding-left: 8vw;
-    padding-right: 8vw;
+    
+    margin: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+    padding-left: 50px;
     color: #FFF;
     transition: all 0.3s;
     position: relative;
     display: inline;
+    padding-right: 50px;
+   
   }
 .btn {
     line-height: 50px;
@@ -140,13 +143,7 @@ header h1{
     width: 100px;
     cursor: pointer;
   }
-  .one{
-    margin-right: 10px;
-   
-  }
-  .two{
-     margin-left: 10px;
-  }
+ 
     header::before {
         content: "";
         position: absolute;
