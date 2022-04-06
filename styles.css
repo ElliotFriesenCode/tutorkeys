@@ -158,7 +158,8 @@ header h1{
         min-height: 100vh;
     }
     header h1 {
-        margin: 25;
+        margin-top: 0;
+        margin-left: 15;
         position: absolute;
         top: 5%;
         left: 25%;
